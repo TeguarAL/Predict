@@ -1,0 +1,207 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 271116 entries, 0 to 271115
+Data columns (total 15 columns):
+ #   Column  Non-Null Count   Dtype
+---  ------  --------------   -----
+ 0   ID      271116 non-null  int64
+ 1   Name    271116 non-null  object
+ 2   Sex     271116 non-null  object
+ 3   Age     261642 non-null  float64
+ 4   Height  210945 non-null  float64
+ 5   Weight  208241 non-null  float64
+ 6   Team    271116 non-null  object
+ 7   NOC     271116 non-null  object
+ 8   Games   271116 non-null  object
+ 9   Year    271116 non-null  int64
+ 10  Season  271116 non-null  object
+ 11  City    271116 non-null  object
+ 12  Sport   271116 non-null  object
+ 13  Event   271116 non-null  object
+ 14  Medal   39783 non-null   object
+dtypes: float64(3), int64(2), object(10)
+memory usage: 31.0+ MB
+None
+                   ID                  Name     Sex            Age         Height         Weight           Team     NOC        Games           Year  Season    City      Sport                    Event  Medal
+count   271116.000000                271116  271116  261642.000000  210945.000000  208241.000000         271116  271116       271116  271116.000000  271116  271116     271116                   271116  39783
+unique            NaN                134732       2            NaN            NaN            NaN           1184     230           51            NaN       2      42         66                      765      3
+top               NaN  Robert Tait McKenzie       M            NaN            NaN            NaN  United States     USA  2000 Summer            NaN  Summer  London  Athletics  Football Men's Football   Gold
+freq              NaN                    58  196594            NaN            NaN            NaN          17847   18853        13821            NaN  222552   22426      38624                     5733  13372
+mean     68248.954396                   NaN     NaN      25.556898     175.338970      70.702393            NaN     NaN          NaN    1978.378480     NaN     NaN        NaN                      NaN    NaN
+std      39022.286345                   NaN     NaN       6.393561      10.518462      14.348020            NaN     NaN          NaN      29.877632     NaN     NaN        NaN                      NaN    NaN
+min          1.000000                   NaN     NaN      10.000000     127.000000      25.000000            NaN     NaN          NaN    1896.000000     NaN     NaN        NaN                      NaN    NaN
+25%      34643.000000                   NaN     NaN      21.000000     168.000000      60.000000            NaN     NaN          NaN    1960.000000     NaN     NaN        NaN                      NaN    NaN
+50%      68205.000000                   NaN     NaN      24.000000     175.000000      70.000000            NaN     NaN          NaN    1988.000000     NaN     NaN        NaN                      NaN    NaN
+75%     102097.250000                   NaN     NaN      28.000000     183.000000      79.000000            NaN     NaN          NaN    2002.000000     NaN     NaN        NaN                      NaN    NaN
+max     135571.000000                   NaN     NaN      97.000000     226.000000     214.000000            NaN     NaN          NaN    2016.000000     NaN     NaN        NaN                      NaN    NaN
+ID
+77710     58
+106296    39
+115354    38
+119591    36
+129196    32
+          ..
+57056      1
+57055      1
+57054      1
+57053      1
+67786      1
+Name: ID, Length: 135571, dtype: int64
+Name
+Robert Tait McKenzie            58
+Heikki Ilmari Savolainen        39
+Joseph "Josy" Stoffel           38
+Ioannis Theofilakis             36
+Takashi Ono                     33
+                                ..
+Tatyana Vasilyevna Kalmykova     1
+Mariya Lvovna Kalmykova          1
+Christine Kalmer                 1
+Joannis "Jannis" Kalmazidis      1
+Pierre-Georges LeClercq          1
+Name: Name, Length: 134732, dtype: int64
+Sex
+M    196594
+F     74522
+Name: Sex, dtype: int64
+Age
+23.0    21875
+24.0    21720
+22.0    20814
+25.0    19707
+21.0    19164
+        ...
+77.0        2
+84.0        1
+96.0        1
+10.0        1
+97.0        1
+Name: Age, Length: 75, dtype: int64
+Height
+NaN      60171
+180.0    12492
+170.0    11976
+178.0    10708
+175.0    10320
+         ...
+226.0        3
+131.0        2
+130.0        2
+219.0        2
+128.0        1
+Name: Height, Length: 96, dtype: int64
+Weight
+NaN      62875
+70.0      9625
+60.0      7994
+75.0      7810
+68.0      7284
+         ...
+149.0        1
+180.0        1
+48.5         1
+190.0        1
+198.0        1
+Name: Weight, Length: 221, dtype: int64
+Team
+United States    17847
+France           11988
+Great Britain    11404
+Italy            10260
+Germany           9326
+                 ...
+Briar                1
+Hannover             1
+Nan-2                1
+Brentina             1
+Digby                1
+Name: Team, Length: 1184, dtype: int64
+NOC
+USA    18853
+FRA    12758
+GBR    12256
+ITA    10715
+GER     9830
+       ...
+YMD        5
+SSD        3
+UNK        2
+NBO        2
+NFL        1
+Name: NOC, Length: 230, dtype: int64
+Games
+2000 Summer    13821
+1996 Summer    13780
+2016 Summer    13688
+2008 Summer    13602
+2004 Summer    13443
+               ...
+1936 Winter      895
+1928 Winter      582
+1924 Winter      460
+1896 Summer      380
+1932 Winter      352
+Name: Games, Length: 51, dtype: int64
+Year
+1992    16413
+1988    14676
+2000    13821
+1996    13780
+2016    13688
+        ...
+1908     3101
+1900     1936
+1906     1733
+1904     1301
+1896      380
+Name: Year, Length: 35, dtype: int64
+Season
+Summer    222552
+Winter     48564
+Name: Season, dtype: int64
+City
+London                    22426
+Athina                    15556
+Sydney                    13821
+Atlanta                   13780
+Rio de Janeiro            13688
+                          ...
+St. Louis                  1301
+Squaw Valley               1116
+Oslo                       1088
+Garmisch-Partenkirchen      895
+Chamonix                    460
+Name: City, Length: 42, dtype: int64
+Sport
+Athletics        38624
+Gymnastics       26707
+Swimming         23195
+Shooting         11448
+Cycling          10859
+                 ...
+Racquets            12
+Jeu De Paume        11
+Roque                4
+Basque Pelota        2
+Aeronautics          1
+Name: Sport, Length: 66, dtype: int64
+Event
+Football Men's Football                                5733
+Ice Hockey Men's Ice Hockey                            4762
+Hockey Men's Hockey                                    3958
+Water Polo Men's Water Polo                            3358
+Basketball Men's Basketball                            3280
+                                                       ...
+Croquet Mixed Doubles                                     2
+Archery Men's Target Archery, 50 metres, Individual       2
+Archery Men's Target Archery, 33 metres, Individual       2
+Archery Men's Target Archery, 28 metres, Individual       2
+Aeronautics Mixed Aeronautics                             1
+Name: Event, Length: 765, dtype: int64
+Medal
+NaN       231333
+Gold       13372
+Bronze     13295
+Silver     13116
+Name: Medal, dtype: int64
+
+Process finished with exit code 0
